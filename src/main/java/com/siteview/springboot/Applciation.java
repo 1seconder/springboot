@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Hello world!
- *
  */
 @SpringBootApplication
 //(scanBasePackages = { "com.siteview.springboot.mapper" })
 public class Applciation {
-	public static void main(String[] args) {
-		SpringApplication.run(Applciation.class, args);
-	}
+
+  public static void main(String[] args) {
+    SpringApplication.run(Applciation.class, args);
+  }
 }

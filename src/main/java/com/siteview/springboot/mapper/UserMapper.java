@@ -6,13 +6,13 @@ import com.siteview.springboot.bean.UserMessage;
 
 public interface UserMapper {
 
-	int delete(String id);
+  int delete(String id);
 
-	int insert(UserMessage user);
+  int insert(UserMessage user);
 
-	int update(UserMessage user);
+  int update(UserMessage user);
 
-	List<UserMessage> selectAll();
+  List<UserMessage> selectAll();
 
-	UserMessage getUserById(String id);
+  UserMessage getUserById(String id);
 }
